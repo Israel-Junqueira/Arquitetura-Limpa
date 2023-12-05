@@ -1,0 +1,4 @@
+﻿
+
+serve para recuperar pelo construtor a persistencia e recuperacao de dados.
+Isso ajuda a manter a separação de responsabilidades e facilita a manutenção do código.

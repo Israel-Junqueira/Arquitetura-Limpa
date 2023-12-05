@@ -1,0 +1,3 @@
+﻿Interface ( IClienteService): Define um contrato para os serviços relacionados aos clientes. 
+Essa interface especifica quais operações o serviço deve oferecer, sem fornecer detalhes sobre 
+como essas operações são inovadoras. Isso cria um ponto de integração claro para outras partes do sistema.

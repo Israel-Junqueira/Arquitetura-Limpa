@@ -1,0 +1,3 @@
+﻿
+
+/*As interfaces de serviço serve que contem a logica de negocio.*/

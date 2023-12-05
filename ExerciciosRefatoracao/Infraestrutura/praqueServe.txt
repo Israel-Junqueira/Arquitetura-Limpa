@@ -1,0 +1,9 @@
+﻿
+Objetivo: Implementar as interfaces definidas na camada de domínio para lidar com persistência e outros detalhes técnicos.
+
+
+Camada de Infraestrutura: 
+Na arquitetura hexagonal, a camada de Infraestrutura é responsável 
+por fornecer implementações concretas para interfaces definidas nas camadas superiores, 
+principalmente na camada de Aplicação e Domínio. Ela lida com detalhes técnicos, 
+como persistência de dados, comunicação com banco de dados, chamadas de API externas, etc.

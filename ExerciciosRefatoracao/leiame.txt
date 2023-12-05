@@ -1,0 +1,43 @@
+﻿
+Passo 1: Compreendendo a Arquitetura Hexagonal (Portas e Adaptadores)
+
+A arquitetura hexagonal, também conhecida como Arquitetura de Portas e Adaptadores, busca isolar o núcleo da aplicação de suas dependências externas, facilitando a manutenção e a testabilidade. Ela é composta por:
+
+Núcleo (Core): Contém a lógica de negócios e as entidades principais da aplicação.
+
+Portas: São as interfaces que definem como o núcleo se comunica com o mundo exterior. Exemplos incluem interfaces de serviços, repositórios, etc.
+
+Adaptadores: Implementações concretas dessas interfaces, adaptando a lógica do núcleo para as tecnologias específicas (banco de dados, API, UI, etc.).
+
+
+1)Usei uma arquitetura hexagonal com padão de design chamado Dependency Injection ou injeção de dependencia com padrão Service
+e Repository
+
+2)Injeção de Dependência (DI): Uma classe EndCobrancaServico aceita 
+uma implementação da interface IEndCobrancaRepositorio em seu construtor. 
+Esse é um exemplo de Injeção de Dependência, onde as dependências 
+(como o repositório) são fornecidas à classe por meio de seus construtores, 
+em vez de serem instanciadas dentro da própria classe. Isso facilita a substituição
+de implementações e torna o código mais testável.
+
+3)Repositório de Serviços: O Repositório de Serviços padrão envolve
+a separação das responsabilidades entre serviços (no seu caso, IAgenciaServico)
+e repositórios (no seu caso, IAgenciaRepositorio). Os serviços contêm uma lógica
+de negócios, enquanto os repositórios são responsáveis ​​pela persistência e recuperação
+de dados. Isso ajuda a manter a separação de responsabilidades e facilita a manutenção do código.
+
+4)
+Fornecer implementações concretas para interfaces definidas nas camadas superiores" - Quem são as camadas superiores?
+
+Resposta: Nas arquiteturas em camadas, como as hexagonais, as "camadas superiores"
+referem-se às camadas que estão mais próximas do usuário ou da lógica de negócios principal.
+Normalmente, seriam as camadas de apresentação e aplicação. A camada de infraestrutura está abaixo delas.
+
+
+5)CAMADA DE INFRAESTRUTURA
+Na camada de infraestrutura, eu também devo ter outra separação com interfaces e classes de implementação?
+
+Resposta: Sim, é comum seguir a mesma abordagem na camada de infraestrutura. 
+Isso permite que você tenha interfaces definindo contratos para operações específicas 
+e classes concretas que implementam esses contratos. Isso é especialmente útil se a camada 
+e infraestrutura precisar interagir com diferentes sistemas externos, bancos de dados, APIs, etc.

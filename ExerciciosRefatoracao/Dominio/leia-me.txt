@@ -1,0 +1,1 @@
+A camada de Domínio contém a lógica de negócios e as entidades de dados. Ela é a parte central da aplicação.

@@ -1,0 +1,63 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Aplicação\DTO\CLientePF_DTO.cs~RF10f4dac.TMP" />
+    <None Remove="Aplicação\Interfaces\IClientePFService.cs~RF11485fa.TMP" />
+    <None Remove="Aplicação\Interfaces\IClientePFService.cs~RFf7c293.TMP" />
+    <None Remove="Aplicação\Interfaces\IClientePFServiceAplication.cs~RF1a4acb0.TMP" />
+    <None Remove="Aplicação\Interfaces\IClienteService.cs~RFb4fdfc.TMP" />
+    <None Remove="Aplicação\Interfaces\IClienteService.cs~RFc1f8bd.TMP" />
+    <None Remove="Aplicação\Interfaces\IClienteService.cs~RFc36e55.TMP" />
+    <None Remove="Aplicação\Interfaces\IClienteService3.cs~RF1010155.TMP" />
+    <None Remove="Aplicação\Servico\ClientePFService.cs~RF116915a.TMP" />
+    <None Remove="Aplicação\Servico\ClientePFService.cs~RF1199851.TMP" />
+    <None Remove="Dominio\Entities\Cliente.cs~RF21d9b7d.TMP" />
+    <None Remove="Dominio\Entities\Cliente.cs~RF22302ab.TMP" />
+    <None Remove="Dominio\Entities\ClientePessoaFisica.cs~RF1f7f3b8.TMP" />
+    <None Remove="Dominio\Entities\ClientePessoaFisica.cs~RF2025b99.TMP" />
+    <None Remove="Dominio\Entities\ClientePessoaJuridica.cs~RF1f626a8.TMP" />
+    <None Remove="Dominio\Entities\ClientePessoaJuridica.cs~RF2036cca.TMP" />
+    <None Remove="Dominio\Entities\EntidadesFilhas\Heranca\ClientePessoaFisica.cs~RF141e371.TMP" />
+    <None Remove="Dominio\Entities\EntidadesFilhas\Heranca\FilhasdasFilhas\ClienteHeranca.cs~RF1415e43.TMP" />
+    <None Remove="Dominio\Interfaces\Repositorio\IClienteRepositorory.cs~RF1afbf58.TMP" />
+    <None Remove="Dominio\Interfaces\Repositorio\IClienteRepository.cs~RF1a99d85.TMP" />
+    <None Remove="Dominio\Interfaces\Repositorio\IEnderecoProp.cs~RF30b76f.TMP" />
+    <None Remove="Dominio\Interfaces\Repositorio\pq_Interface_de_repositorio.txt~RF43025b.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\ICliente.cs~RF1d8fe3e.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IClienteServicoDomain.cs~RF19c4717.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IClienteServicoDomain.cs~RF1aa3e68.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IEndCobrancaServico.cs~RF33a281.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IEndEntregaServico.cs~RF456a91.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IEndEntregaServico.cs~RF47813c.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IEndFaturamentoServico.cs~RF48c286.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IEndFaturamentoServico.cs~RF49299d.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\IGetDadosCliente.cs~RF5e8f94.TMP" />
+    <None Remove="Dominio\Interfaces\Servico\pq_interfacedeServico.txt" />
+    <None Remove="Dominio\Services\ClienteServicoDomain.cs~RF1a06b35.TMP" />
+    <None Remove="Infraestrutura\DataAcces\IClienteRepositoryBanco1.cs~RF1003ea2.TMP" />
+    <None Remove="Infraestrutura\DataAcces\IClienteRepositoryBanco1.cs~RFfe51b6.TMP" />
+    <None Remove="UI\Request\CadastroPF.cs~RFd508dd.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Dominio\Interfaces\Servico\pq_interfacedeServico.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infraestrutura\DataAcces\" />
+    <Folder Include="Infraestrutura\Interfaces\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "l0Nyt9EOpypuSiptbj85I2U2+HRYHz/1XTqOYwUZs+0PhrezGX4IysdzFXofWMP9+UlG3rHOHmwhR3FnmOuefg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\etec\\Desktop\\ExerciciosRefatoracao\\ExerciciosRefatoracao\\ExerciciosRefatoracao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\etec\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\etec\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\etec\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
